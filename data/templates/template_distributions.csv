@@ -1,0 +1,1 @@
+distribution_id,collection_id,recipient_id,distribution_datetime,qty_distributed_kg,beneficiaries_served,transport_distance_km,wastage_kg,wastage_reason,distribution_status,handover_record_complete,data_source (FIELD DATA),recipient_representative_signed (Y/N),temperature_on_arrival_c,human_go_no_go_decision (Go/No-Go),decision_made_by,labelling_done (Y/N)

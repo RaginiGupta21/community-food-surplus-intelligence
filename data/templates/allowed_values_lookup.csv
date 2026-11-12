@@ -1,0 +1,10 @@
+donor_category,sub_area,food_category,surplus_reason,collection_status,wastage_reason,recipient_type,packaging_type,storage_condition,diet_type
+Restaurant,Dadar West,Cooked Meals,Overproduction vs Demand,Collected - Full,Recipient Capacity Exhausted,Community Kitchen,Open/Bulk Container,Hot-Held,Veg
+Bakery,Dadar East,Snacks & Fast Food,Unsold at Closing/End of Day,Collected - Partial,No Recipient Window Within Safe Time,Night Shelter,Sealed Container,Room Temperature,Non-Veg
+Caterer,Shivaji Park,Bread & Bakery,Near Best-Before,Missed - No Volunteer Available,No Recipient Accepts Food Type/Diet,Children's Home,Original Sealed Packet,Refrigerated,
+Residential Society,Matunga,Cakes & Pastries,Guest Count Lower Than Estimated,Missed - Arrived Beyond Safe Window,Quality Loss During Handling,Old-Age Home,Boxed,,
+Sweet Shop,Mahim,Sweets & Mithai,Over-Estimation of Quantity,Cancelled by Donor,,Street Community Group,,,
+Canteen/Mess,Dharavi Fringe,Packaged/Dry Food,Event Cancelled/Shortened,Rejected - Failed Volunteer Safety Check,,Informal Settlement Resident Group,,,
+Banquet/Event Hall,,Fruits & Raw Produce,Order Cancellation,,,,,,
+,,,Low Footfall/Attendance,,,,,,
+,,,Festival Over-Stocking/Celebration,,,,,,

@@ -1,0 +1,7 @@
+table,column,action,rows_changed
+donors,sub_area,Mapped to canonical label (case/whitespace/'&' fixes),5
+surplus_records,food_category,Mapped to canonical label (case/whitespace/'&' fixes),236
+surplus_records,surplus_reason,Mapped to canonical label (case/whitespace/'&' fixes),191
+surplus_records,packaging_type,Missing optional value -> 'Not Recorded',311
+surplus_records,storage_condition,Missing optional value -> 'Not Recorded',207
+all,date/datetime columns,Parsed to datetime64,0

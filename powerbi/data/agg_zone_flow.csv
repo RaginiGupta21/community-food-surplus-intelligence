@@ -1,0 +1,37 @@
+donor_zone,recipient_zone,delivered_kg,data_label
+Dadar West,Dadar West,3245.8,SYNTHETIC DEMO DATA
+Dadar West,Dadar East,2781.4,SYNTHETIC DEMO DATA
+Dadar West,Shivaji Park,179.7,SYNTHETIC DEMO DATA
+Dadar West,Matunga,3342.4,SYNTHETIC DEMO DATA
+Dadar West,Mahim,2458.0,SYNTHETIC DEMO DATA
+Dadar West,Dharavi Fringe,7220.9,SYNTHETIC DEMO DATA
+Dadar East,Dadar West,326.2,SYNTHETIC DEMO DATA
+Dadar East,Dadar East,1944.4,SYNTHETIC DEMO DATA
+Dadar East,Shivaji Park,0.0,SYNTHETIC DEMO DATA
+Dadar East,Matunga,1653.7,SYNTHETIC DEMO DATA
+Dadar East,Mahim,556.4,SYNTHETIC DEMO DATA
+Dadar East,Dharavi Fringe,3873.3,SYNTHETIC DEMO DATA
+Shivaji Park,Dadar West,700.8,SYNTHETIC DEMO DATA
+Shivaji Park,Dadar East,367.6,SYNTHETIC DEMO DATA
+Shivaji Park,Shivaji Park,389.9,SYNTHETIC DEMO DATA
+Shivaji Park,Matunga,192.3,SYNTHETIC DEMO DATA
+Shivaji Park,Mahim,2240.5,SYNTHETIC DEMO DATA
+Shivaji Park,Dharavi Fringe,2678.6,SYNTHETIC DEMO DATA
+Matunga,Dadar West,89.8,SYNTHETIC DEMO DATA
+Matunga,Dadar East,920.1,SYNTHETIC DEMO DATA
+Matunga,Shivaji Park,3.8,SYNTHETIC DEMO DATA
+Matunga,Matunga,3371.4,SYNTHETIC DEMO DATA
+Matunga,Mahim,286.5,SYNTHETIC DEMO DATA
+Matunga,Dharavi Fringe,5519.6,SYNTHETIC DEMO DATA
+Mahim,Dadar West,9.3,SYNTHETIC DEMO DATA
+Mahim,Dadar East,15.0,SYNTHETIC DEMO DATA
+Mahim,Shivaji Park,0.0,SYNTHETIC DEMO DATA
+Mahim,Matunga,54.7,SYNTHETIC DEMO DATA
+Mahim,Mahim,5896.2,SYNTHETIC DEMO DATA
+Mahim,Dharavi Fringe,5717.2,SYNTHETIC DEMO DATA
+Dharavi Fringe,Dadar West,17.5,SYNTHETIC DEMO DATA
+Dharavi Fringe,Dadar East,0.0,SYNTHETIC DEMO DATA
+Dharavi Fringe,Shivaji Park,0.0,SYNTHETIC DEMO DATA
+Dharavi Fringe,Matunga,81.2,SYNTHETIC DEMO DATA
+Dharavi Fringe,Mahim,151.3,SYNTHETIC DEMO DATA
+Dharavi Fringe,Dharavi Fringe,2895.4,SYNTHETIC DEMO DATA

@@ -1,0 +1,17 @@
+kpi,python_value,data_label
+Surplus reports,10374.0,SYNTHETIC DEMO DATA
+Donors that reported at least once,127.0,SYNTHETIC DEMO DATA
+Reported surplus (kg),148320.40000000002,SYNTHETIC DEMO DATA
+Collected (kg),77653.6,SYNTHETIC DEMO DATA
+Delivered to recipients (kg),59180.899999999994,SYNTHETIC DEMO DATA
+Wasted after collection (kg),18472.699999999997,SYNTHETIC DEMO DATA
+Never collected (kg),70666.8,SYNTHETIC DEMO DATA
+Portions served,325953.0,SYNTHETIC DEMO DATA
+Collection rate (kg %),52.35530648514971,SYNTHETIC DEMO DATA
+Redistribution yield (kg %),39.90071493874072,SYNTHETIC DEMO DATA
+Delivery efficiency (kg %),76.21140552401948,SYNTHETIC DEMO DATA
+Reports with a collection (count %),75.91093117408907,SYNTHETIC DEMO DATA
+Median report->pickup (min),42.0,SYNTHETIC DEMO DATA
+90th pct report->pickup (min),70.0,SYNTHETIC DEMO DATA
+Pickups within 60 min (%),81.8920634920635,SYNTHETIC DEMO DATA
+Hand-over records complete (%),93.63201610873395,SYNTHETIC DEMO DATA

@@ -1,0 +1,1 @@
+surplus_id,donor_id,report_datetime,prep_datetime,food_category,food_item,diet_type,quantity_kg,est_portions,portion_size_kg,surplus_reason,packaging_type,storage_condition,declared_safe_window_hours,perishability_class,data_source (FIELD DATA),recorded_by,photo_reference_optional

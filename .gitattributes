@@ -1,0 +1,5 @@
+* text=auto
+*.sh text eol=lf
+*.pbix binary
+*.png binary
+*.zip binary

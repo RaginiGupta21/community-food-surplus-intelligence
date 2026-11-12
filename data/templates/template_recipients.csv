@@ -1,0 +1,1 @@
+recipient_id,recipient_name,recipient_type,sub_area,latitude,longitude,daily_capacity_portions,window1_start,window1_end,window2_start,window2_end,accepts_cooked_food,diet_acceptance,has_cold_storage,fssai_registration_status,verification_status,data_source (FIELD DATA),authorisation_document_seen (Y/N),fssai_registration_verified_on_portal (Y/N),verified_by,verification_date

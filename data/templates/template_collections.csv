@@ -1,0 +1,1 @@
+collection_id,surplus_id,volunteer_id,assigned_datetime,pickup_datetime,collection_status,qty_collected_kg,collection_distance_km,partial_reason,rejection_reason,data_source (FIELD DATA),volunteer_foSTaC_trained (Y/N),temperature_check_done (Y/N),temperature_reading_c,human_go_no_go_decision (Go/No-Go),decision_made_by

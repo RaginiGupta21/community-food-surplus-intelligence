@@ -1,0 +1,492 @@
+date,kg_value,series,lower_80_kg,upper_80_kg,model,data_label
+2025-11-01 00:00:00,220.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-02 00:00:00,250.99999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-03 00:00:00,296.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-04 00:00:00,138.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-05 00:00:00,74.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-06 00:00:00,98.89999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-07 00:00:00,232.79999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-08 00:00:00,220.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-09 00:00:00,193.40000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-10 00:00:00,81.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-11 00:00:00,194.50000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-12 00:00:00,209.20000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-13 00:00:00,200.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-14 00:00:00,309.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-15 00:00:00,491.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-16 00:00:00,230.20000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-17 00:00:00,146.20000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-18 00:00:00,107.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-19 00:00:00,133.70000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-20 00:00:00,449.30000000000007,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-21 00:00:00,268.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-22 00:00:00,882.0000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-23 00:00:00,752.6000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-24 00:00:00,66.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-25 00:00:00,225.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-26 00:00:00,243.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-27 00:00:00,374.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-28 00:00:00,471.99999999999994,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-29 00:00:00,549.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-11-30 00:00:00,756.0999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-01 00:00:00,316.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-02 00:00:00,247.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-03 00:00:00,217.99999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-04 00:00:00,583.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-05 00:00:00,511.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-06 00:00:00,649.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-07 00:00:00,891.9000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-08 00:00:00,242.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-09 00:00:00,103.89999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-10 00:00:00,168.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-11 00:00:00,563.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-12 00:00:00,377.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-13 00:00:00,407.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-14 00:00:00,599.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-15 00:00:00,247.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-16 00:00:00,421.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-17 00:00:00,455.5999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-18 00:00:00,225.10000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-19 00:00:00,454.40000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-20 00:00:00,1057.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-21 00:00:00,914.5999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-22 00:00:00,214.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-23 00:00:00,424.29999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-24 00:00:00,409.49999999999994,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-25 00:00:00,695.3000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-26 00:00:00,870.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-27 00:00:00,1240.3999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-28 00:00:00,1163.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-29 00:00:00,597.6999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-30 00:00:00,369.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2025-12-31 00:00:00,533.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-01 00:00:00,546.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-02 00:00:00,350.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-03 00:00:00,484.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-04 00:00:00,840.6999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-05 00:00:00,424.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-06 00:00:00,157.10000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-07 00:00:00,406.79999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-08 00:00:00,196.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-09 00:00:00,825.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-10 00:00:00,959.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-11 00:00:00,543.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-12 00:00:00,227.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-13 00:00:00,414.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-14 00:00:00,550.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-15 00:00:00,754.8000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-16 00:00:00,579.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-17 00:00:00,853.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-18 00:00:00,660.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-19 00:00:00,553.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-20 00:00:00,350.09999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-21 00:00:00,320.19999999999993,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-22 00:00:00,558.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-23 00:00:00,678.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-24 00:00:00,1114.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-25 00:00:00,849.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-26 00:00:00,337.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-27 00:00:00,596.0999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-28 00:00:00,428.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-29 00:00:00,178.39999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-30 00:00:00,833.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-01-31 00:00:00,764.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-01 00:00:00,1006.8000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-02 00:00:00,381.4000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-03 00:00:00,283.29999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-04 00:00:00,441.49999999999994,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-05 00:00:00,399.29999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-06 00:00:00,727.4000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-07 00:00:00,888.2000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-08 00:00:00,793.3000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-09 00:00:00,363.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-10 00:00:00,295.90000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-11 00:00:00,241.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-12 00:00:00,641.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-13 00:00:00,799.2999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-14 00:00:00,955.3999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-15 00:00:00,648.5999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-16 00:00:00,337.09999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-17 00:00:00,166.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-18 00:00:00,157.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-19 00:00:00,118.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-20 00:00:00,256.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-21 00:00:00,226.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-22 00:00:00,271.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-23 00:00:00,276.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-24 00:00:00,218.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-25 00:00:00,281.80000000000007,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-26 00:00:00,242.70000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-27 00:00:00,283.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-02-28 00:00:00,219.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-01 00:00:00,298.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-02 00:00:00,93.69999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-03 00:00:00,183.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-04 00:00:00,370.09999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-05 00:00:00,349.09999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-06 00:00:00,246.39999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-07 00:00:00,481.09999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-08 00:00:00,545.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-09 00:00:00,412.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-10 00:00:00,133.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-11 00:00:00,174.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-12 00:00:00,472.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-13 00:00:00,471.90000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-14 00:00:00,320.70000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-15 00:00:00,283.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-16 00:00:00,182.40000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-17 00:00:00,191.10000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-18 00:00:00,232.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-19 00:00:00,455.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-20 00:00:00,889.0999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-21 00:00:00,635.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-22 00:00:00,417.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-23 00:00:00,152.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-24 00:00:00,162.39999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-25 00:00:00,207.00000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-26 00:00:00,295.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-27 00:00:00,666.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-28 00:00:00,113.60000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-29 00:00:00,631.4999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-30 00:00:00,288.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-03-31 00:00:00,293.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-01 00:00:00,207.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-02 00:00:00,288.4000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-03 00:00:00,187.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-04 00:00:00,669.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-05 00:00:00,172.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-06 00:00:00,167.99999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-07 00:00:00,261.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-08 00:00:00,411.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-09 00:00:00,243.99999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-10 00:00:00,167.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-11 00:00:00,331.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-12 00:00:00,421.1000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-13 00:00:00,163.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-14 00:00:00,316.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-15 00:00:00,242.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-16 00:00:00,220.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-17 00:00:00,936.0000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-18 00:00:00,1248.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-19 00:00:00,693.1999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-20 00:00:00,408.00000000000006,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-21 00:00:00,176.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-22 00:00:00,384.79999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-23 00:00:00,337.40000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-24 00:00:00,401.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-25 00:00:00,428.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-26 00:00:00,831.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-27 00:00:00,365.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-28 00:00:00,197.20000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-29 00:00:00,191.10000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-04-30 00:00:00,383.09999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-01 00:00:00,743.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-02 00:00:00,716.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-03 00:00:00,732.2999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-04 00:00:00,314.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-05 00:00:00,298.2999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-06 00:00:00,396.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-07 00:00:00,482.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-08 00:00:00,1014.4000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-09 00:00:00,434.70000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-10 00:00:00,782.9000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-11 00:00:00,248.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-12 00:00:00,263.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-13 00:00:00,502.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-14 00:00:00,655.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-15 00:00:00,655.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-16 00:00:00,691.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-17 00:00:00,618.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-18 00:00:00,474.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-19 00:00:00,177.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-20 00:00:00,316.09999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-21 00:00:00,594.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-22 00:00:00,766.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-23 00:00:00,911.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-24 00:00:00,1108.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-25 00:00:00,411.99999999999994,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-26 00:00:00,314.69999999999993,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-27 00:00:00,383.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-28 00:00:00,802.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-29 00:00:00,837.5999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-30 00:00:00,1353.0000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-05-31 00:00:00,782.3000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-01 00:00:00,230.10000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-02 00:00:00,167.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-03 00:00:00,174.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-04 00:00:00,417.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-05 00:00:00,385.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-06 00:00:00,422.79999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-07 00:00:00,206.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-08 00:00:00,294.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-09 00:00:00,216.79999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-10 00:00:00,272.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-11 00:00:00,122.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-12 00:00:00,216.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-13 00:00:00,472.99999999999994,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-14 00:00:00,556.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-15 00:00:00,196.09999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-16 00:00:00,213.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-17 00:00:00,411.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-18 00:00:00,323.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-19 00:00:00,454.80000000000007,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-20 00:00:00,388.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-21 00:00:00,553.7000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-22 00:00:00,301.20000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-23 00:00:00,164.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-24 00:00:00,323.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-25 00:00:00,258.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-26 00:00:00,194.69999999999996,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-27 00:00:00,437.90000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-28 00:00:00,642.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-29 00:00:00,133.79999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-06-30 00:00:00,146.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-01 00:00:00,171.40000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-02 00:00:00,300.70000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-03 00:00:00,783.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-04 00:00:00,366.20000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-05 00:00:00,275.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-06 00:00:00,310.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-07 00:00:00,202.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-08 00:00:00,235.39999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-09 00:00:00,251.39999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-10 00:00:00,390.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-11 00:00:00,326.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-12 00:00:00,702.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-13 00:00:00,260.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-14 00:00:00,199.50000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-15 00:00:00,303.90000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-16 00:00:00,227.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-17 00:00:00,514.4000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-18 00:00:00,443.70000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-19 00:00:00,555.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-20 00:00:00,150.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-21 00:00:00,171.69999999999996,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-22 00:00:00,128.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-23 00:00:00,255.29999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-24 00:00:00,394.80000000000007,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-25 00:00:00,426.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-26 00:00:00,325.99999999999994,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-27 00:00:00,257.79999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-28 00:00:00,273.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-29 00:00:00,345.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-30 00:00:00,374.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-31 00:00:00,286.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-01 00:00:00,604.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-02 00:00:00,416.70000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-03 00:00:00,184.79999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-04 00:00:00,115.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-05 00:00:00,245.70000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-06 00:00:00,309.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-07 00:00:00,370.0000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-08 00:00:00,374.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-09 00:00:00,547.5999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-10 00:00:00,285.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-11 00:00:00,252.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-12 00:00:00,233.29999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-13 00:00:00,247.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-14 00:00:00,282.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-15 00:00:00,313.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-16 00:00:00,444.99999999999994,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-17 00:00:00,200.20000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-18 00:00:00,137.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-19 00:00:00,272.29999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-20 00:00:00,256.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-21 00:00:00,412.40000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-22 00:00:00,372.80000000000007,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-23 00:00:00,154.60000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-24 00:00:00,218.89999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-25 00:00:00,212.39999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-26 00:00:00,224.80000000000004,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-27 00:00:00,272.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-28 00:00:00,409.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-29 00:00:00,730.9999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-30 00:00:00,416.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-31 00:00:00,232.70000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-01 00:00:00,190.10000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-02 00:00:00,417.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-03 00:00:00,329.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-04 00:00:00,561.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-05 00:00:00,761.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-06 00:00:00,518.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-07 00:00:00,203.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-08 00:00:00,178.10000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-09 00:00:00,200.2,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-10 00:00:00,337.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-11 00:00:00,315.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-12 00:00:00,417.3,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-13 00:00:00,490.1,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-14 00:00:00,331.70000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-15 00:00:00,245.70000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-16 00:00:00,245.20000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-17 00:00:00,689.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-18 00:00:00,596.6999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-19 00:00:00,621.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-20 00:00:00,707.0000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-21 00:00:00,236.89999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-22 00:00:00,218.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-23 00:00:00,218.00000000000006,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-24 00:00:00,142.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-25 00:00:00,214.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-26 00:00:00,423.40000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-27 00:00:00,749.1999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-28 00:00:00,124.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-29 00:00:00,167.70000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-30 00:00:00,336.8,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-01 00:00:00,294.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-02 00:00:00,254.9,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-03 00:00:00,398.8999999999999,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-04 00:00:00,447.59999999999997,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-05 00:00:00,197.70000000000002,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-06 00:00:00,184.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-07 00:00:00,175.39999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-08 00:00:00,241.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-09 00:00:00,387.30000000000007,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-10 00:00:00,405.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-11 00:00:00,840.5,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-12 00:00:00,331.4,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-13 00:00:00,570.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-14 00:00:00,436.79999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-15 00:00:00,414.79999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-16 00:00:00,778.9000000000001,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-17 00:00:00,997.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-18 00:00:00,1142.4999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-19 00:00:00,343.20000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-20 00:00:00,219.69999999999996,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-21 00:00:00,205.90000000000003,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-22 00:00:00,276.20000000000005,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-23 00:00:00,228.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-24 00:00:00,674.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-25 00:00:00,292.6,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-26 00:00:00,209.0,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-27 00:00:00,301.99999999999994,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-28 00:00:00,426.69999999999993,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-29 00:00:00,180.89999999999998,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-30 00:00:00,259.79999999999995,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-31 00:00:00,543.7,Actual,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-12 00:00:00,508.910165352991,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-13 00:00:00,199.2857494865804,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-14 00:00:00,152.22990891868693,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-15 00:00:00,184.4058256970075,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-16 00:00:00,265.3495514860441,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-17 00:00:00,419.8827179761021,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-18 00:00:00,517.0973830665253,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-19 00:00:00,531.6166475854767,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-20 00:00:00,218.03358768577266,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-21 00:00:00,170.58240588650662,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-22 00:00:00,204.67868728998255,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-23 00:00:00,281.2486469262402,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-24 00:00:00,439.39362389044106,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-25 00:00:00,532.1781051843876,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-26 00:00:00,528.0542554537222,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-27 00:00:00,212.28719822533634,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-28 00:00:00,166.64150279241525,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-29 00:00:00,198.58405013218277,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-30 00:00:00,276.49200130903466,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-07-31 00:00:00,434.1565520874967,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-01 00:00:00,525.3720317921666,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-02 00:00:00,533.1669825138284,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-03 00:00:00,223.69215316144482,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-04 00:00:00,179.6509599104213,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-05 00:00:00,212.6895148346691,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-06 00:00:00,289.33547072496333,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-07 00:00:00,440.62916967197344,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-08 00:00:00,537.4004287265303,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-09 00:00:00,519.6551683706415,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-10 00:00:00,212.30243849570763,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-11 00:00:00,167.64958777721804,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-12 00:00:00,203.19430223737245,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-13 00:00:00,279.52709531317794,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-14 00:00:00,428.5132118965286,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-15 00:00:00,523.0126412200107,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-16 00:00:00,521.3715048166697,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-17 00:00:00,215.201921905258,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-18 00:00:00,170.8258872360998,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-19 00:00:00,205.03171902051963,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-20 00:00:00,279.76009689946295,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-21 00:00:00,425.87480388428634,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-22 00:00:00,519.0173384110374,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-23 00:00:00,516.3093318018541,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-24 00:00:00,211.68518825893318,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-25 00:00:00,166.89407506012765,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-26 00:00:00,203.53755067064463,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-27 00:00:00,487.05183829175434,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-28 00:00:00,633.3756806055437,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-29 00:00:00,512.4607671829837,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-30 00:00:00,515.5179548873643,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-08-31 00:00:00,219.5927118637105,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-01 00:00:00,176.16207364638313,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-02 00:00:00,213.89826457327928,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-03 00:00:00,281.4615710906003,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-04 00:00:00,613.8731961040821,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-05 00:00:00,712.8751739221722,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-06 00:00:00,515.2205608079562,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-07 00:00:00,221.81641367110865,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-08 00:00:00,178.42792337049332,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-09 00:00:00,220.5389639384545,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-10 00:00:00,284.6011020866233,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-11 00:00:00,427.30234572984983,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-12 00:00:00,528.5475798945001,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-13 00:00:00,505.9739479910626,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-14 00:00:00,398.64211962574257,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-15 00:00:00,355.73443086026896,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-16 00:00:00,397.38065963509973,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-17 00:00:00,463.1543507853082,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-18 00:00:00,602.1960691754622,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-19 00:00:00,703.5108001039472,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-20 00:00:00,683.6067439674401,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-21 00:00:00,388.8397372903756,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-22 00:00:00,345.1516020432893,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-23 00:00:00,386.35053716209046,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-24 00:00:00,460.51099995802934,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-25 00:00:00,414.94133687951467,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-26 00:00:00,514.289282356377,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-27 00:00:00,498.616555740271,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-28 00:00:00,200.693134307729,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-29 00:00:00,157.95701410852783,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-09-30 00:00:00,199.47416249197533,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-01 00:00:00,313.5480396559728,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-02 00:00:00,449.1100029346617,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-03 00:00:00,549.9142860364464,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-04 00:00:00,534.2841323857147,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-05 00:00:00,229.46136100097087,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-06 00:00:00,188.54046090174853,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-07 00:00:00,232.80066795166158,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-08 00:00:00,301.17598756091746,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-09 00:00:00,433.1047415951876,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-10 00:00:00,534.844198885547,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-11 00:00:00,685.9183630145543,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-12 00:00:00,382.14960563472255,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-13 00:00:00,341.800935429124,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-14 00:00:00,384.9060265765821,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-15 00:00:00,453.3932103996898,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-16 00:00:00,585.6780508407703,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-17 00:00:00,685.76642393813,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-18 00:00:00,719.912328772094,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-19 00:00:00,411.717095205143,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-20 00:00:00,376.5220772244628,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-21 00:00:00,233.61412343947273,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-22 00:00:00,299.61728260604707,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-23 00:00:00,437.28436867839025,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-24 00:00:00,540.5129976249675,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-25 00:00:00,546.9276300902625,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-26 00:00:00,228.9942070256109,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-27 00:00:00,191.95825667725842,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-28 00:00:00,232.66838089300128,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-29 00:00:00,298.6381554977369,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-30 00:00:00,432.8908807289994,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-10-31 00:00:00,543.0147046385792,Back-test prediction,,,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-01 00:00:00,538.6579818194391,Forecast,370.8724555009047,684.8849204512771,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-02 00:00:00,225.19648921789096,Forecast,57.410962899356576,371.423427849729,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-03 00:00:00,190.64977056176957,Forecast,22.86424424323519,336.8767091936076,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-04 00:00:00,232.9258275543712,Forecast,65.14030123583683,379.15276618620925,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-05 00:00:00,292.94475135564545,Forecast,125.15922503711107,439.1716899874835,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-06 00:00:00,426.1923031781317,Forecast,258.4067768595973,572.4192418099697,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-07 00:00:00,539.6835605137044,Forecast,371.89803419517,685.9104991455424,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-08 00:00:00,538.6579818194391,Forecast,370.8724555009047,684.8849204512771,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-09 00:00:00,225.19648921789096,Forecast,57.410962899356576,371.423427849729,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-10 00:00:00,190.64977056176957,Forecast,22.86424424323519,336.8767091936076,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-11 00:00:00,232.9258275543712,Forecast,65.14030123583683,379.15276618620925,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-12 00:00:00,292.94475135564545,Forecast,125.15922503711107,439.1716899874835,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-13 00:00:00,426.1923031781317,Forecast,258.4067768595973,572.4192418099697,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA
+2026-11-14 00:00:00,539.6835605137044,Forecast,371.89803419517,685.9104991455424,Regression (weekday + calendar flags + active donors),SYNTHETIC DEMO DATA

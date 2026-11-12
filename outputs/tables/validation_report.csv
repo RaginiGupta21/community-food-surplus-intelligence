@@ -1,0 +1,74 @@
+check_id,description,violations,status,critical
+V01,donors: columns match data dictionary exactly,0,PASS,True
+V01,recipients: columns match data dictionary exactly,0,PASS,True
+V01,volunteers: columns match data dictionary exactly,0,PASS,True
+V01,daily_context: columns match data dictionary exactly,0,PASS,True
+V01,surplus_records: columns match data dictionary exactly,0,PASS,True
+V01,collections: columns match data dictionary exactly,0,PASS,True
+V01,distributions: columns match data dictionary exactly,0,PASS,True
+V02,donors.donor_id is unique and non-null,0,PASS,True
+V02,recipients.recipient_id is unique and non-null,0,PASS,True
+V02,volunteers.volunteer_id is unique and non-null,0,PASS,True
+V02,daily_context.date is unique and non-null,0,PASS,True
+V02,surplus_records.surplus_id is unique and non-null,0,PASS,True
+V02,collections.collection_id is unique and non-null,0,PASS,True
+V02,distributions.distribution_id is unique and non-null,0,PASS,True
+V03,surplus_records.donor_id exists in donors,0,PASS,True
+V03,collections.surplus_id exists in surplus_records,0,PASS,True
+V03,every surplus record has exactly one collection record,0,PASS,True
+V03,collections.volunteer_id exists in volunteers (when present),0,PASS,True
+V03,distributions.collection_id exists in collections,0,PASS,True
+V03,distributions.recipient_id exists in recipients (when present),0,PASS,True
+V04,donors: data_label = 'SYNTHETIC DEMO DATA',0,PASS,True
+V04,recipients: data_label = 'SYNTHETIC DEMO DATA',0,PASS,True
+V04,volunteers: data_label = 'SYNTHETIC DEMO DATA',0,PASS,True
+V04,daily_context: data_label = 'SYNTHETIC DEMO DATA',0,PASS,True
+V04,surplus_records: data_label = 'SYNTHETIC DEMO DATA',0,PASS,True
+V04,collections: data_label = 'SYNTHETIC DEMO DATA',0,PASS,True
+V04,distributions: data_label = 'SYNTHETIC DEMO DATA',0,PASS,True
+V05,prep_datetime <= report_datetime,0,PASS,True
+V06,report date within 2025-11-01..2026-10-31,0,PASS,True
+V06,report date >= donor onboarded_date,0,PASS,True
+V06,report date <= donor withdrawn_date (when withdrawn),0,PASS,True
+V06,daily_context covers every day of the window once,0,PASS,True
+V07,assigned_datetime >= report_datetime,0,PASS,True
+V07,pickup_datetime >= assigned_datetime,0,PASS,True
+V08,quantity_kg between 0.5 and 200,0,PASS,True
+V08,est_portions > 0 and declared_safe_window_hours > 0,0,PASS,True
+V08,0 <= qty_collected_kg <= quantity_kg,0,PASS,True
+V08,"collected statuses have qty>0, volunteer and pickup time",0,PASS,True
+V08,non-collected statuses have qty_collected = 0,0,PASS,True
+V08,'Collected - Full' equals reported quantity,0,PASS,True
+V08,'Collected - Partial' is below reported quantity or load-capped,0,PASS,True
+V08,Cancelled/No-Volunteer rows have no volunteer and no pickup,0,PASS,True
+V08,Rejected rows carry a logged rejection_reason,0,PASS,True
+V09,collected pickups happen inside the declared safe window,0,PASS,True
+V10,'Arrived Beyond Safe Window' rows really are beyond the window,0,PASS,True
+V11,Delivered rows have recipient and datetime; Not Delivered rows have neither,0,PASS,True
+V11,distribution_datetime >= pickup_datetime,0,PASS,True
+V11,distribution_datetime within declared safe window,0,PASS,True
+V12,only collected consignments are distributed; every collected consignment has >=1 row,0,PASS,True
+V12,at most 2 distribution rows per consignment,0,PASS,True
+V12,distributed + wastage = collected (tolerance 0.06 kg),0,PASS,True
+V12,wastage_reason present whenever wastage > 0.04 kg on a row,0,PASS,True
+V13,deliveries fall inside a recipient acceptance window,0,PASS,True
+V14,Non-Veg food never delivered to Veg-only recipients,0,PASS,True
+V14,Cooked meals never delivered to recipients without cooked-food facilities,0,PASS,True
+V15,portions served per recipient per day <= daily capacity,0,PASS,True
+V16,beneficiaries_served = floor(qty / portion size) (+-1 float tolerance),0,PASS,True
+V17,donors: coordinates inside study bounding box,0,PASS,True
+V17,recipients: coordinates inside study bounding box,0,PASS,True
+V17,volunteers: coordinates inside study bounding box,0,PASS,True
+V18,recipient windows are ordered (start < end),0,PASS,True
+V19,distance fields are within 0-8 km,0,PASS,True
+V20,daily_context.rain_level only contains allowed values (no NaN),0,PASS,True
+V20,daily_context.wedding_season_flag only contains allowed values (no NaN),0,PASS,True
+V20,surplus_records.diet_type only contains allowed values (no NaN),0,PASS,True
+V20,surplus_records.perishability_class only contains allowed values (no NaN),0,PASS,True
+V20,collections.collection_status only contains allowed values (no NaN),0,PASS,True
+V20,distributions.distribution_status only contains allowed values (no NaN),0,PASS,True
+V20,recipients.diet_acceptance only contains allowed values (no NaN),0,PASS,True
+V20,donors.donor_category only contains allowed values (no NaN),0,PASS,True
+V20,volunteers.shift only contains allowed values (no NaN),0,PASS,True
+V20,recipients.recipient_type only contains allowed values (no NaN),0,PASS,True
+V20,daily_context.festival_name has no nulls,0,PASS,True

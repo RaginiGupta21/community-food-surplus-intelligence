@@ -1,0 +1,5 @@
+,0
+best_model,Regression (weekday + calendar flags + active donors)
+beats_seasonal_naive_by_>5pct,True
+backtest_origins,16
+interval,empirical 10-90% of back-test errors

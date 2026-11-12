@@ -1,0 +1,8 @@
+food_category,perishability_class,portion_size_kg,sort_order,data_label
+Bread & Bakery,Medium,0.1,3,SYNTHETIC DEMO DATA
+Cakes & Pastries,Medium,0.1,4,SYNTHETIC DEMO DATA
+Cooked Meals,High,0.35,1,SYNTHETIC DEMO DATA
+Fruits & Raw Produce,Medium,0.15,7,SYNTHETIC DEMO DATA
+Packaged/Dry Food,Low,0.08,6,SYNTHETIC DEMO DATA
+Snacks & Fast Food,High,0.15,2,SYNTHETIC DEMO DATA
+Sweets & Mithai,Medium,0.06,5,SYNTHETIC DEMO DATA

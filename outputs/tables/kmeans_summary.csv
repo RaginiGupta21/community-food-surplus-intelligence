@@ -1,0 +1,7 @@
+,0
+n_donors_clustered,121
+best_k,3
+silhouette,0.41383020695044737
+bootstrap_ARI_mean,0.9266763853245891
+ARI_vs_donor_category,0.38461454637726056
+verdict,MEANINGFUL: silhouette >= 0.25 and stable (ARI >= 0.75)

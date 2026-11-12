@@ -1,0 +1,90 @@
+table,column,data_type,description,allowed_values_or_range,nullable
+donors,donor_id,string,Primary key (D###),D001-D128,No
+donors,donor_name,string,Fictional donor label (no real businesses),free text,No
+donors,donor_category,category,Type of food donor,Restaurant; Bakery; Caterer; Residential Society; Sweet Shop; Canteen/Mess; Banquet/Event Hall,No
+donors,sub_area,category,Study-area zone of the donor,Dadar West; Dadar East; Shivaji Park; Matunga; Mahim; Dharavi Fringe,No
+donors,latitude,float,"Approximate synthetic latitude (zone centroid + jitter, NOT a real address)",18.99-19.07,No
+donors,longitude,float,Approximate synthetic longitude,72.82-72.88,No
+donors,donor_size_class,category,Relative size within its category (tercile of typical quantity),Small; Medium; Large,No
+donors,fssai_license_declared,category,Donor-declared FSSAI licence/registration status (unverified),Yes; Pending; No; Not Applicable,No
+donors,onboarded_date,date,Date donor joined the reporting programme,2025-11-01 to 2026-08-31,No
+donors,donor_status,category,Programme status at end of data window,Active; Withdrawn,No
+donors,withdrawn_date,date,Date donor stopped reporting (only if Withdrawn),date or blank,Yes
+donors,reporting_channel,category,How the donor reports surplus,Phone Call; Messaging Form; Walk-in Desk,No
+donors,data_label,string,Constant label: SYNTHETIC DEMO DATA for generated records; replace with FIELD DATA for real collection.,SYNTHETIC DEMO DATA,No
+recipients,recipient_id,string,Primary key (R##),R01-R25,No
+recipients,recipient_name,string,Fictional organisation label - NOT a real NGO,free text,No
+recipients,recipient_type,category,Type of recipient organisation,Community Kitchen; Night Shelter; Children's Home; Old-Age Home; Street Community Group; Informal Settlement Resident Group,No
+recipients,sub_area,category,Study-area zone,Dadar West; Dadar East; Shivaji Park; Matunga; Mahim; Dharavi Fringe,No
+recipients,latitude,float,Approximate synthetic latitude,18.99-19.07,No
+recipients,longitude,float,Approximate synthetic longitude,72.82-72.88,No
+recipients,daily_capacity_portions,int,Maximum portions the recipient can serve per day,30-400,No
+recipients,window1_start,time,First food-acceptance window start (HH:MM),HH:MM,No
+recipients,window1_end,time,First window end,HH:MM,No
+recipients,window2_start,time,Second window start,HH:MM or blank,Yes
+recipients,window2_end,time,Second window end,HH:MM or blank,Yes
+recipients,accepts_cooked_food,category,Has facilities to receive cooked food,Yes; No,No
+recipients,diet_acceptance,category,Veg-only recipients cannot receive Non-Veg food,Any; Veg-only,No
+recipients,has_cold_storage,category,Has refrigeration,Yes; No,No
+recipients,fssai_registration_status,category,Synthetic declared status (real NGOs must be verified before any use),Declared Registered; Not Declared,No
+recipients,verification_status,string,Always flags that the organisation is fictional,SYNTHETIC - not a real organisation,No
+recipients,data_label,string,Constant label: SYNTHETIC DEMO DATA for generated records; replace with FIELD DATA for real collection.,SYNTHETIC DEMO DATA,No
+volunteers,volunteer_id,string,Primary key (V##),V01-V36,No
+volunteers,volunteer_name,string,Fictional label,free text,No
+volunteers,home_sub_area,category,Zone the volunteer starts from,Dadar West; Dadar East; Shivaji Park; Matunga; Mahim; Dharavi Fringe,No
+volunteers,home_latitude,float,Approximate synthetic latitude,18.99-19.07,No
+volunteers,home_longitude,float,Approximate synthetic longitude,72.82-72.88,No
+volunteers,shift,category,"Usual shift: Morning 07-14, Afternoon 13-19:30, Evening 17:30-22:30, Late 21-24",Morning; Afternoon; Evening; Late,No
+volunteers,availability_days,category,Days the volunteer can be rostered,Weekdays; Weekends; All Days,No
+volunteers,vehicle_mode,category,Transport used for pickup and delivery,On foot; Bicycle; Two-wheeler; Four-wheeler,No
+volunteers,max_load_kg,float,Maximum load per trip,8-250,No
+volunteers,fostac_trained,category,Synthetic flag: completed food-handler (FoSTaC-type) training,Yes; No,No
+volunteers,onboarded_date,date,Date volunteer joined,2025-11-01 to 2026-04-30,No
+volunteers,data_label,string,Constant label: SYNTHETIC DEMO DATA for generated records; replace with FIELD DATA for real collection.,SYNTHETIC DEMO DATA,No
+daily_context,date,date,Primary key,2025-11-01 to 2026-10-31,No
+daily_context,day_name,category,Weekday name,Monday-Sunday,No
+daily_context,is_weekend,int,1 for Saturday/Sunday,0; 1,No
+daily_context,festival_name,string,Festival window from the public 2026 calendar (moon-dependent dates +-1 day) used in the demand model,name or No Festival,No
+daily_context,wedding_season_flag,int,Approximate wedding-season window flag,0; 1,No
+daily_context,monsoon_season_flag,int,Monsoon window: 2026 onset ~22 Jun (IMD/press) to 30 Sep,0; 1,No
+daily_context,rain_level,category,SIMULATED daily rain indicator; monthly intensity follows IMD/press reports for 2026 (not observed daily data),No Rain; Light/Moderate; Heavy,No
+daily_context,data_label,string,Constant label: SYNTHETIC DEMO DATA for generated records; replace with FIELD DATA for real collection.,SYNTHETIC DEMO DATA,No
+surplus_records,surplus_id,string,Primary key (S######),unique,No
+surplus_records,donor_id,string,FK -> donors.donor_id,valid donor,No
+surplus_records,report_datetime,datetime,When the donor reported the surplus,within data window and donor active period,No
+surplus_records,prep_datetime,datetime,When the food was prepared/produced (donor-declared),<= report_datetime,No
+surplus_records,food_category,category,Food category,Cooked Meals; Snacks & Fast Food; Bread & Bakery; Cakes & Pastries; Sweets & Mithai; Packaged/Dry Food; Fruits & Raw Produce,No
+surplus_records,food_item,string,Specific item,free text,No
+surplus_records,diet_type,category,Veg / Non-Veg,Veg; Non-Veg,No
+surplus_records,quantity_kg,float,Reported surplus quantity in kg,0.5-200,No
+surplus_records,est_portions,int,Donor-estimated number of portions,>0,No
+surplus_records,portion_size_kg,float,Planning portion weight for the category,0.06-0.35,No
+surplus_records,surplus_reason,category,Reason surplus arose,Overproduction vs Demand; Unsold at Closing/End of Day; Near Best-Before; Guest Count Lower Than Estimated; Over-Estimation of Quantity; Event Cancelled/Shortened; Order Cancellation; Low Footfall/Attendance; Festival Over-Stocking/Celebration,No
+surplus_records,packaging_type,category,Packaging at reporting,Open/Bulk Container; Sealed Container; Original Sealed Packet; Boxed,Yes
+surplus_records,storage_condition,category,Holding condition at reporting,Hot-Held; Room Temperature; Refrigerated,Yes
+surplus_records,declared_safe_window_hours,float,Donor-declared hours from preparation within which food is intended to be consumed (advisory input only; humans make the safety decision),4-400 (cooked food 4-6 per FSSAI guidance),No
+surplus_records,perishability_class,category,Planning class from food category (High/Medium/Low) - NOT a safety decision,High; Medium; Low,No
+surplus_records,data_label,string,Constant label: SYNTHETIC DEMO DATA for generated records; replace with FIELD DATA for real collection.,SYNTHETIC DEMO DATA,No
+collections,collection_id,string,Primary key (C######),unique,No
+collections,surplus_id,string,FK -> surplus_records.surplus_id (exactly one collection-attempt record per surplus report),"valid, unique",No
+collections,volunteer_id,string,FK -> volunteers.volunteer_id; blank if none assigned/cancelled,valid or blank,Yes
+collections,assigned_datetime,datetime,When a volunteer was assigned,>= report_datetime,Yes
+collections,pickup_datetime,datetime,Time of pickup (or arrival if pickup failed),>= assigned_datetime,Yes
+collections,collection_status,category,Outcome of the collection attempt,Collected - Full; Collected - Partial; Missed - No Volunteer Available; Missed - Arrived Beyond Safe Window; Cancelled by Donor; Rejected - Failed Volunteer Safety Check,No
+collections,qty_collected_kg,float,Kg actually collected (0 if not collected),0 to quantity_kg,No
+collections,collection_distance_km,float,Approx. road distance volunteer -> donor (haversine x 1.3),0-8,Yes
+collections,partial_reason,string,Why only part was collected,Vehicle/Load Capacity; Donor Released Less; blank,Yes
+collections,rejection_reason,string,"Volunteer-recorded reason (human judgement, logged - never automated)",text or blank,Yes
+collections,data_label,string,Constant label: SYNTHETIC DEMO DATA for generated records; replace with FIELD DATA for real collection.,SYNTHETIC DEMO DATA,No
+distributions,distribution_id,string,Primary key (X######),unique,No
+distributions,collection_id,string,FK -> collections.collection_id (1 or 2 rows per collected consignment),valid,No
+distributions,recipient_id,string,FK -> recipients.recipient_id; blank if Not Delivered,valid or blank,Yes
+distributions,distribution_datetime,datetime,Hand-over time at recipient,>= pickup_datetime; inside a recipient window,Yes
+distributions,qty_distributed_kg,float,Kg handed over,>= 0,No
+distributions,beneficiaries_served,int,Portions served = floor(qty / portion_size_kg),>= 0,No
+distributions,transport_distance_km,float,Approx. road distance donor -> recipient,0-8,Yes
+distributions,wastage_kg,float,Kg of the consignment not distributed (recorded on the last row of the consignment),>= 0,No
+distributions,wastage_reason,category,Reason for wastage,Recipient Capacity Exhausted; No Recipient Window Within Safe Time; No Recipient Accepts Food Type/Diet; Quality Loss During Handling; blank,Yes
+distributions,distribution_status,category,Delivered / Not Delivered,Delivered; Not Delivered,No
+distributions,handover_record_complete,category,"Hand-over record complete (donor, recipient, date, item, quantity) - record-keeping compliance proxy",Yes; No,No
+distributions,data_label,string,Constant label: SYNTHETIC DEMO DATA for generated records; replace with FIELD DATA for real collection.,SYNTHETIC DEMO DATA,No

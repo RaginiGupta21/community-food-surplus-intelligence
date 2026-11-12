@@ -1,0 +1,6 @@
+scenario,extra_delivered_kg,extra_portions,new_yield_pct,uplift_pts,assumption
+A1: halve 'no volunteer' misses,12211.31540141088,67256.74819132661,48.13378024965606,8.233065310915341,50% of misses become collections; they convert to delivery at the observed overall delivery efficiency
+A2: halve late-night 'no volunteer' misses,7317.833289482522,40304.72186476881,44.834515878788416,4.933800940047708,extra Late-shift volunteers; converts at the observed late-night delivery efficiency
+A3: second trip / van for loads above vehicle capacity,10332.094563999606,56906.48873909258,46.86677932637694,6.966064387636228,half of the kg left behind for load-capacity reasons is collected and converts at the observed delivery efficiency
+B: halve 'no recipient window' wastage,4065.45,22391.440884643525,42.64170673757621,2.7409917988354935,two recipients agree to extended evening/night acceptance windows; recovered kg delivered in full
+C: A1 + B combined (not additive-overlap adjusted),16276.765401410881,89648.18907597015,50.87477204849156,10.974057109750836,simple sum; real overlap would make the true gain somewhat smaller

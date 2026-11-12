@@ -1,0 +1,129 @@
+donor_id,donor_name,donor_category,sub_area,latitude,longitude,donor_size_class,fssai_license_declared,onboarded_date,donor_status,withdrawn_date,reporting_channel,data_label
+D001,Demo Restaurant 01,Restaurant,Dadar West,19.01852,72.84492,Large,Yes,2025-12-18,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D002,Demo Restaurant 02,Restaurant,Dadar West,19.01323,72.84102,Small,Yes,2026-07-11,Withdrawn,2026-09-09,Phone Call,SYNTHETIC DEMO DATA
+D003,Demo Restaurant 03,Restaurant,Matunga,19.03,72.86052,Medium,Yes,2026-04-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D004,Demo Restaurant 04,Restaurant, Dadar West ,19.01938,72.84391,Large,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D005,Demo Restaurant 05,Restaurant,Dadar East,19.0201,72.84538,Large,No,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D006,Demo Restaurant 06,Restaurant,dadar west,19.02426,72.84348,Large,Yes,2025-11-20,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D007,Demo Restaurant 07,Restaurant,Mahim,19.04138,72.84956,Small,Yes,2026-04-29,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D008,Demo Restaurant 08,Restaurant,Shivaji Park,19.02684,72.84059,Large,Yes,2026-03-12,Active,,Phone Call,SYNTHETIC DEMO DATA
+D009,Demo Restaurant 09,Restaurant,Mahim,19.0406,72.84443,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D010,Demo Restaurant 10,Restaurant,Shivaji Park,19.0273,72.83868,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D011,Demo Restaurant 11,Restaurant,Mahim,19.03668,72.83526,Medium,Yes,2025-11-29,Active,,Phone Call,SYNTHETIC DEMO DATA
+D012,Demo Restaurant 12,Restaurant,Dadar West,19.01669,72.83829,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D013,Demo Restaurant 13,Restaurant,Mahim,19.04097,72.84409,Medium,Yes,2026-02-06,Active,,Phone Call,SYNTHETIC DEMO DATA
+D014,Demo Restaurant 14,Restaurant,Mahim,19.03693,72.83971,Small,Yes,2026-08-27,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D015,Demo Restaurant 15,Restaurant,Dadar West,19.01632,72.84214,Large,Yes,2026-08-13,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D016,Demo Restaurant 16,Restaurant,Matunga,19.026,72.85357,Large,Yes,2025-11-30,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D017,Demo Restaurant 17,Restaurant,Dadar East,19.02215,72.85102,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D018,Demo Restaurant 18,Restaurant,Matunga,19.02481,72.86358,Large,Yes,2026-05-26,Active,,Phone Call,SYNTHETIC DEMO DATA
+D019,Demo Restaurant 19,Restaurant,Dadar East,19.0238,72.84929,Small,Yes,2026-03-03,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D020,Demo Restaurant 20,Restaurant,Mahim,19.03946,72.84432,Medium,Yes,2026-05-30,Active,,Phone Call,SYNTHETIC DEMO DATA
+D021,Demo Restaurant 21,Restaurant,Dadar West,19.01906,72.83886,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D022,Demo Restaurant 22,Restaurant,Dadar West,19.0144,72.83927,Medium,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D023,Demo Restaurant 23,Restaurant,Mahim,19.04226,72.83665,Medium,Yes,2026-04-10,Withdrawn,2026-06-09,Messaging Form,SYNTHETIC DEMO DATA
+D024,Demo Restaurant 24,Restaurant,Matunga,19.02933,72.8572,Small,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D025,Demo Restaurant 25,Restaurant,Shivaji Park,19.02848,72.83791,Small,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D026,Demo Restaurant 26,Restaurant,Matunga,19.02808,72.86016,Small,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D027,Demo Restaurant 27,Restaurant,Matunga,19.02861,72.85968,Large,Yes,2026-05-06,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D028,Demo Restaurant 28,Restaurant,Dadar East,19.02396,72.84772,Medium,Yes,2026-05-25,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D029,Demo Restaurant 29,Restaurant,Shivaji Park,19.02534,72.83563,Large,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D030,Demo Restaurant 30,Restaurant,Dadar West,19.01658,72.8395,Medium,Yes,2026-01-21,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D031,Demo Restaurant 31,Restaurant,Matunga,19.03004,72.8561,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D032,Demo Restaurant 32,Restaurant,Matunga,19.03058,72.85759,Medium,Yes,2026-07-22,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D033,Demo Restaurant 33,Restaurant,Mahim,19.04164,72.84136,Small,No,2026-06-14,Active,,Phone Call,SYNTHETIC DEMO DATA
+D034,Demo Restaurant 34,Restaurant,Shivaji Park,19.03062,72.83514,Small,Yes,2026-02-18,Active,,Phone Call,SYNTHETIC DEMO DATA
+D035,Demo Restaurant 35,Restaurant,Matunga,19.02852,72.85631,Medium,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D036,Demo Restaurant 36,Restaurant,Dadar East,19.0187,72.84729,Medium,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D037,Demo Restaurant 37,Restaurant,Dadar West,19.01629,72.84085,Medium,Yes,2026-06-15,Withdrawn,2026-08-14,Messaging Form,SYNTHETIC DEMO DATA
+D038,Demo Restaurant 38,Restaurant,Mahim,19.04375,72.84002,Small,Yes,2025-11-01,Withdrawn,2026-07-04,Messaging Form,SYNTHETIC DEMO DATA
+D039,Demo Bakery 01,Bakery,Matunga,19.02434,72.85408,Large,Yes,2026-02-23,Active,,Phone Call,SYNTHETIC DEMO DATA
+D040,Demo Bakery 02,Bakery,Matunga,19.02391,72.85516,Large,Yes,2025-12-10,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D041,Demo Bakery 03,Bakery,Shivaji Park,19.031,72.84284,Small,Yes,2026-07-10,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D042,Demo Bakery 04,Bakery,Shivaji Park,19.02557,72.83782,Medium,Yes,2026-01-05,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D043,Demo Bakery 05,Bakery,Mahim,19.0402,72.84312,Large,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D044,Demo Bakery 06,Bakery,Dadar East,19.02931,72.84926,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D045,Demo Bakery 07,Bakery,Mahim,19.04405,72.84212,Medium,Pending,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D046,Demo Bakery 08,Bakery,Dadar West,19.01683,72.84307,Large,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D047,Demo Bakery 09,Bakery,Matunga,19.03085,72.85153,Medium,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D048,Demo Bakery 10,Bakery,Dadar West,19.02185,72.83666,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D049,Demo Bakery 11,Bakery,Matunga,19.02615,72.8589,Small,Yes,2026-06-26,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D050,Demo Bakery 12,Bakery,Dadar West,19.01621,72.83554,Small,Pending,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D051,Demo Bakery 13,Bakery,Mahim,19.04018,72.83971,Large,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D052,Demo Bakery 14,Bakery,Matunga,19.02586,72.84975,Large,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D053,Demo Bakery 15,Bakery,Dadar East,19.02469,72.84741,Medium,Yes,2026-08-23,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D054,Demo Bakery 16,Bakery,Shivaji Park,19.02652,72.8424,Small,Yes,2025-12-14,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D055,Demo Bakery 17,Bakery,Dadar West,19.02244,72.84521,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D056,Demo Bakery 18,Bakery,Matunga,19.02603,72.85639,Medium,Yes,2026-04-26,Active,,Phone Call,SYNTHETIC DEMO DATA
+D057,Demo Bakery 19,Bakery,Dadar West,19.01745,72.84426,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D058,Demo Bakery 20,Bakery,Dadar West,19.01961,72.84384,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D059,Demo Bakery 21,Bakery,Shivaji Park,19.02613,72.83613,Medium,Yes,2025-12-13,Withdrawn,2026-09-07,Messaging Form,SYNTHETIC DEMO DATA
+D060,Demo Bakery 22,Bakery,Dadar East,19.02099,72.84563,Medium,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D061,Demo Caterer 01,Caterer,Dadar West,19.02161,72.83791,Large,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D062,Demo Caterer 02,Caterer,Dadar East,19.02343,72.85062,Small,Yes,2026-05-14,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D063,Demo Caterer 03,Caterer,Mahim,19.04105,72.84139,Small,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D064,Demo Caterer 04,Caterer,Matunga,19.02925,72.85321,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D065,Demo Caterer 05,Caterer,Dadar West,19.01804,72.83909,Medium,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D066,Demo Caterer 06,Caterer,Mahim,19.03814,72.83732,Large,Yes,2025-11-27,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D067,Demo Caterer 07,Caterer,Dadar East,19.02182,72.84926,Medium,Yes,2026-08-25,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D068,Demo Caterer 08,Caterer,Matunga,19.02982,72.85292,Small,Yes,2025-12-13,Active,,Phone Call,SYNTHETIC DEMO DATA
+D069,Demo Caterer 09,Caterer,Dadar West,19.02132,72.84315,Small,Yes,2025-11-01,Withdrawn,2026-03-21,Walk-in Desk,SYNTHETIC DEMO DATA
+D070,Demo Caterer 10,Caterer,Dadar West,19.01481,72.84,Large,Yes,2025-11-07,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D071,Demo Caterer 11,Caterer,Matunga,19.02325,72.85497,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D072,Demo Caterer 12,Caterer,Dharavi Fringe,19.04013,72.85302,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D073,Demo Caterer 13,Caterer,Mahim,19.0408,72.8386,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D074,Demo Caterer 14,Caterer,Dadar East,19.01912,72.84953,Medium,No,2026-06-17,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D075,Demo Caterer 15,Caterer,Dadar West,19.01928,72.84023,Large,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D076,Demo Caterer 16,Caterer,Dadar East,19.02265,72.85038,Medium,Yes,2026-02-05,Active,,Phone Call,SYNTHETIC DEMO DATA
+D077,Demo Caterer 17,Caterer,Dadar West,19.01736,72.84207,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D078,Demo Caterer 18,Caterer,Mahim,19.04004,72.84492,Large,Yes,2026-08-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D079,Demo Caterer 19,Caterer,Dadar West,19.0138,72.84066,Medium,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D080,Demo Caterer 20,Caterer,Dharavi Fringe,19.03798,72.8544,Medium,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D081,Demo Residential Society 01,Residential Society,Dadar East,19.01904,72.85286,Medium,Not Applicable,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D082,Demo Residential Society 02,Residential Society,Shivaji Park,19.02471,72.83913,Large,Not Applicable,2026-08-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D083,Demo Residential Society 03,Residential Society,mahim,19.03889,72.84369,Small,Not Applicable,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D084,Demo Residential Society 04,Residential Society,Mahim,19.0466,72.83963,Medium,Not Applicable,2026-08-02,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D085,Demo Residential Society 05,Residential Society,Shivaji Park,19.02682,72.83562,Large,Not Applicable,2026-07-16,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D086,Demo Residential Society 06,Residential Society,Shivaji Park,19.02807,72.8386,Small,Not Applicable,2025-11-17,Active,,Phone Call,SYNTHETIC DEMO DATA
+D087,Demo Residential Society 07,Residential Society,Shivaji Park,19.02692,72.83834,Small,Not Applicable,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D088,Demo Residential Society 08,Residential Society,Shivaji Park,19.02809,72.83715,Small,Not Applicable,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D089,Demo Residential Society 09,Residential Society,dadar west,19.01856,72.8429,Large,Not Applicable,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D090,Demo Residential Society 10,Residential Society,Shivaji Park,19.02891,72.83384,Small,Not Applicable,2026-08-14,Active,,Phone Call,SYNTHETIC DEMO DATA
+D091,Demo Residential Society 11,Residential Society,Shivaji Park,19.03121,72.83811,Medium,Not Applicable,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D092,Demo Residential Society 12,Residential Society,Matunga,19.02891,72.85763,Large,Not Applicable,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D093,Demo Residential Society 13,Residential Society,Mahim,19.04051,72.84041,Medium,Not Applicable,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D094,Demo Residential Society 14,Residential Society,Matunga,19.0221,72.8554,Medium,Not Applicable,2026-08-24,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D095,Demo Residential Society 15,Residential Society,Shivaji Park,19.02554,72.83669,Medium,Not Applicable,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D096,Demo Residential Society 16,Residential Society,Dadar West,19.02089,72.8412,Large,Not Applicable,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D097,Demo Residential Society 17,Residential Society,Dadar West,19.01614,72.84025,Large,Not Applicable,2026-07-05,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D098,Demo Residential Society 18,Residential Society,Mahim,19.03992,72.84082,Small,Not Applicable,2026-02-27,Active,,Phone Call,SYNTHETIC DEMO DATA
+D099,Demo Sweet Shop 01,Sweet Shop,Matunga,19.02247,72.85915,Large,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D100,Demo Sweet Shop 02,Sweet Shop,Matunga,19.02976,72.86028,Medium,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D101,Demo Sweet Shop 03,Sweet Shop,Dadar West,19.01775,72.84066,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D102,Demo Sweet Shop 04,Sweet Shop,Mahim,19.04185,72.83928,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D103,Demo Sweet Shop 05,Sweet Shop,Dharavi Fringe,19.0429,72.85092,Large,Yes,2026-05-20,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D104,Demo Sweet Shop 06,Sweet Shop,Dadar West,19.01916,72.8343,Medium,Yes,2025-11-05,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D105,Demo Sweet Shop 07,Sweet Shop,Matunga,19.02637,72.85618,Large,Pending,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D106,Demo Sweet Shop 08,Sweet Shop,dadar west,19.01947,72.83892,Small,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D107,Demo Sweet Shop 09,Sweet Shop,Matunga,19.02898,72.86029,Medium,Pending,2026-01-10,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D108,Demo Sweet Shop 10,Sweet Shop,Dadar West,19.01802,72.8397,Large,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D109,Demo Canteen/Mess 01,Canteen/Mess,Shivaji Park,19.02855,72.84041,Large,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D110,Demo Canteen/Mess 02,Canteen/Mess,Matunga,19.02869,72.85724,Small,Yes,2025-11-01,Withdrawn,2026-04-21,Messaging Form,SYNTHETIC DEMO DATA
+D111,Demo Canteen/Mess 03,Canteen/Mess,Shivaji Park,19.02368,72.83538,Medium,Yes,2026-06-02,Withdrawn,2026-08-01,Messaging Form,SYNTHETIC DEMO DATA
+D112,Demo Canteen/Mess 04,Canteen/Mess,Dadar West,19.01804,72.83866,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D113,Demo Canteen/Mess 05,Canteen/Mess,Mahim,19.03846,72.83824,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D114,Demo Canteen/Mess 06,Canteen/Mess,Mahim,19.04134,72.83674,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D115,Demo Canteen/Mess 07,Canteen/Mess,Dadar East,19.02482,72.84775,Small,Yes,2026-02-07,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D116,Demo Canteen/Mess 08,Canteen/Mess,Mahim,19.03797,72.84205,Large,Yes,2025-12-16,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D117,Demo Canteen/Mess 09,Canteen/Mess,Dadar East,19.02339,72.84615,Medium,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D118,Demo Canteen/Mess 10,Canteen/Mess,Shivaji Park,19.02938,72.83791,Small,Yes,2025-11-01,Withdrawn,2026-07-10,Phone Call,SYNTHETIC DEMO DATA
+D119,Demo Canteen/Mess 11,Canteen/Mess,Mahim,19.04599,72.8369,Medium,Yes,2026-04-15,Active,,Phone Call,SYNTHETIC DEMO DATA
+D120,Demo Canteen/Mess 12,Canteen/Mess,Dadar East,19.023,72.84909,Medium,Yes,2025-11-01,Withdrawn,2026-09-29,Messaging Form,SYNTHETIC DEMO DATA
+D121,Demo Banquet/Event Hall 01,Banquet/Event Hall,Dadar East,19.02313,72.84691,Large,Yes,2025-11-01,Active,,Walk-in Desk,SYNTHETIC DEMO DATA
+D122,Demo Banquet/Event Hall 02,Banquet/Event Hall,Shivaji Park,19.0294,72.83753,Small,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D123,Demo Banquet/Event Hall 03,Banquet/Event Hall,Matunga,19.0242,72.85919,Medium,Yes,2025-11-01,Withdrawn,2026-07-09,Messaging Form,SYNTHETIC DEMO DATA
+D124,Demo Banquet/Event Hall 04,Banquet/Event Hall,Mahim,19.03909,72.83704,Small,Yes,2025-11-01,Active,,Phone Call,SYNTHETIC DEMO DATA
+D125,Demo Banquet/Event Hall 05,Banquet/Event Hall,Dadar West,19.01485,72.83502,Large,Yes,2025-11-01,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D126,Demo Banquet/Event Hall 06,Banquet/Event Hall,Shivaji Park,19.0271,72.84087,Small,Yes,2025-11-01,Withdrawn,2026-08-01,Messaging Form,SYNTHETIC DEMO DATA
+D127,Demo Banquet/Event Hall 07,Banquet/Event Hall,Dadar East,19.02547,72.84935,Large,Yes,2026-01-12,Active,,Messaging Form,SYNTHETIC DEMO DATA
+D128,Demo Banquet/Event Hall 08,Banquet/Event Hall,Matunga,19.02492,72.85887,Medium,Yes,2026-03-03,Active,,Walk-in Desk,SYNTHETIC DEMO DATA

@@ -1,0 +1,26 @@
+recipient_id,recipient_name,recipient_type,recipient_zone,deliveries,kg,portions,daily_capacity_portions,avg_daily_portions,utilisation_%
+R01,Demo Informal Settlement Resident Group 01,Informal Settlement Resident Group,Dharavi Fringe,202,2399.5,11363,140,31.13150684931507,22.23679060665362
+R02,Demo Children's Home 02,Children's Home,Dharavi Fringe,12,96.2,473,80,1.295890410958904,1.6198630136986298
+R03,Demo Community Kitchen 03,Community Kitchen,Dharavi Fringe,19,374.8,2142,230,5.868493150684931,2.5515187611673613
+R04,Demo Street Community Group 04,Street Community Group,Dharavi Fringe,639,7972.3,35342,240,96.82739726027397,40.34474885844749
+R05,Demo Night Shelter 05,Night Shelter,Dharavi Fringe,680,4023.9,21273,80,58.28219178082192,72.8527397260274
+R06,Demo Community Kitchen 06,Community Kitchen,Dharavi Fringe,80,495.4,3168,150,8.67945205479452,5.786301369863014
+R07,Demo Informal Settlement Resident Group 07,Informal Settlement Resident Group,Dharavi Fringe,38,312.8,2879,180,7.887671232876713,4.382039573820396
+R08,Demo Children's Home 08,Children's Home,Dharavi Fringe,14,100.60000000000001,766,110,2.0986301369863014,1.9078455790784556
+R09,Demo Street Community Group 09,Street Community Group,Dharavi Fringe,1104,12129.5,57177,240,156.64931506849314,65.27054794520546
+R10,Demo Night Shelter 10,Night Shelter,Mahim,675,4502.9,21984,90,60.23013698630137,66.92237442922374
+R11,Demo Children's Home 11,Children's Home,Mahim,26,189.5,1227,100,3.361643835616438,3.361643835616438
+R12,Demo Community Kitchen 12,Community Kitchen,Mahim,162,1219.6,6841,160,18.742465753424657,11.71404109589041
+R13,Demo Night Shelter 13,Night Shelter,Mahim,800,4943.8,28672,120,78.55342465753425,65.46118721461187
+R14,Demo Children's Home 14,Children's Home,Mahim,144,733.1,5024,100,13.764383561643836,13.764383561643836
+R15,Demo Children's Home 15,Children's Home,Matunga,57,224.3,1882,50,5.156164383561644,10.312328767123288
+R16,Demo Informal Settlement Resident Group 16,Informal Settlement Resident Group,Matunga,795,6532.8,39319,180,107.72328767123288,59.84627092846271
+R17,Demo Old-Age Home 17,Old-Age Home,Matunga,95,635.7,3365,70,9.219178082191782,13.170254403131118
+R18,Demo Old-Age Home 18,Old-Age Home,Matunga,73,409.5,2240,50,6.136986301369863,12.273972602739725
+R19,Demo Old-Age Home 19,Old-Age Home,Matunga,133,893.4,3964,50,10.860273972602739,21.720547945205478
+R20,Demo Children's Home 20,Children's Home,Dadar East,117,560.3,4395,110,12.04109589041096,10.946450809464508
+R21,Demo Children's Home 21,Children's Home,Dadar East,119,607.9,4174,90,11.435616438356165,12.706240487062406
+R22,Demo Community Kitchen 22,Community Kitchen,Dadar East,757,4860.3,35111,300,96.1945205479452,32.0648401826484
+R23,Demo Night Shelter 23,Night Shelter,Dadar West,883,3316.4,24306,70,66.59178082191781,95.1311154598826
+R24,Demo Old-Age Home 24,Old-Age Home,Dadar West,171,1073.0,5616,50,15.386301369863014,30.77260273972603
+R25,Demo Children's Home 25,Children's Home,Shivaji Park,151,573.4,3250,40,8.904109589041095,22.260273972602736

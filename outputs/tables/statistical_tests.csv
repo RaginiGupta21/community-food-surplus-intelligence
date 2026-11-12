@@ -1,0 +1,9 @@
+test,statistic,p_value,effect_size,effect_name,reading
+Kruskal-Wallis: quantity_kg across donor categories,6518.162429599667,0.0,0.6281626728657922,epsilon-squared,large effect
+"Mann-Whitney: daily kg per active donor, weekend vs weekday",21415.0,1.7532938352386166e-17,0.5688644688644688,rank-biserial r,large effect; median weekend 5.3 vs weekday 2.8 kg/donor/day
+Chi-square: collected (Y/N) vs time slot,328.80566582592314,3.9880156749052144e-72,0.17803136612588913,Cramer's V,small association (dof=2)
+Chi-square: collected (Y/N) vs rain level,278.43613972670994,3.45430337661352e-61,0.1638285849786084,Cramer's V,small association (dof=2)
+Chi-square: collected (Y/N) vs donor category,426.9970154054814,4.371235490192295e-89,0.20288002881674144,Cramer's V,small association (dof=6)
+Chi-square: collected (Y/N) vs donor zone,32.69507207646517,4.326205546154317e-06,0.05613943373850991,Cramer's V,negligible association (dof=5)
+Spearman: volunteer distance vs response minutes (collected only),0.37661775986175555,7.366158246433276e-264,0.37661775986175555,rho,moderate association
+Spearman: log quantity vs response minutes (collected only),0.03768777503743538,0.0008224825714777327,0.03768777503743538,rho,negligible association

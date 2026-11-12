@@ -1,0 +1,1 @@
+donor_id,donor_name,donor_category,sub_area,latitude,longitude,donor_size_class,fssai_license_declared,onboarded_date,donor_status,withdrawn_date,reporting_channel,data_source (FIELD DATA),consent_to_participate (Yes/No),contact_person_role,fssai_licence_number_seen (Y/N; do not store the number if not needed),verified_by,verification_date

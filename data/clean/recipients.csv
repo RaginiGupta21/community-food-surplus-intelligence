@@ -1,0 +1,26 @@
+recipient_id,recipient_name,recipient_type,sub_area,latitude,longitude,daily_capacity_portions,window1_start,window1_end,window2_start,window2_end,accepts_cooked_food,diet_acceptance,has_cold_storage,fssai_registration_status,verification_status,data_label
+R01,Demo Informal Settlement Resident Group 01,Informal Settlement Resident Group,Dharavi Fringe,19.03928,72.85107,140,11:00,16:00,19:00,22:30,Yes,Any,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R02,Demo Children's Home 02,Children's Home,Dharavi Fringe,19.03806,72.85411,80,12:00,14:00,18:30,21:00,Yes,Any,No,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R03,Demo Community Kitchen 03,Community Kitchen,Dharavi Fringe,19.03985,72.85229,230,12:00,15:00,19:00,22:00,Yes,Any,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R04,Demo Street Community Group 04,Street Community Group,Dharavi Fringe,19.04368,72.84964,240,15:00,17:00,20:00,23:30,Yes,Any,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R05,Demo Night Shelter 05,Night Shelter,Dharavi Fringe,19.03639,72.84784,80,19:30,23:54,,,Yes,Any,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R06,Demo Community Kitchen 06,Community Kitchen,Dharavi Fringe,19.03614,72.85512,150,12:00,15:00,19:00,22:00,Yes,Veg-only,No,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R07,Demo Informal Settlement Resident Group 07,Informal Settlement Resident Group,Dharavi Fringe,19.04275,72.85352,180,11:00,16:00,19:00,22:30,Yes,Any,No,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R08,Demo Children's Home 08,Children's Home,Dharavi Fringe,19.03727,72.85235,110,12:00,14:00,18:30,21:00,Yes,Veg-only,Yes,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R09,Demo Street Community Group 09,Street Community Group,Dharavi Fringe,19.03526,72.85605,240,15:00,17:00,20:00,23:30,Yes,Any,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R10,Demo Night Shelter 10,Night Shelter,Mahim,19.03831,72.83847,90,19:30,23:54,,,Yes,Any,Yes,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R11,Demo Children's Home 11,Children's Home,Mahim,19.03811,72.84188,100,12:00,14:00,18:30,21:00,Yes,Veg-only,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R12,Demo Community Kitchen 12,Community Kitchen,Mahim,19.03814,72.84231,160,12:00,15:00,19:00,22:00,Yes,Any,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R13,Demo Night Shelter 13,Night Shelter,Mahim,19.03876,72.84159,120,19:30,23:54,,,Yes,Any,Yes,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R14,Demo Children's Home 14,Children's Home,Mahim,19.04043,72.84038,100,12:00,14:00,18:30,21:00,Yes,Any,Yes,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R15,Demo Children's Home 15,Children's Home,Matunga,19.02458,72.85232,50,12:00,14:00,18:30,21:00,Yes,Veg-only,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R16,Demo Informal Settlement Resident Group 16,Informal Settlement Resident Group,Matunga,19.02367,72.85835,180,11:00,16:00,19:00,22:30,Yes,Any,No,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R17,Demo Old-Age Home 17,Old-Age Home,Matunga,19.02924,72.85451,70,11:30,13:30,18:00,20:30,Yes,Veg-only,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R18,Demo Old-Age Home 18,Old-Age Home,Matunga,19.02502,72.85683,50,11:30,13:30,18:00,20:30,Yes,Veg-only,Yes,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R19,Demo Old-Age Home 19,Old-Age Home,Matunga,19.02464,72.85624,50,11:30,13:30,18:00,20:30,Yes,Any,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R20,Demo Children's Home 20,Children's Home,Dadar East,19.0215,72.84825,110,12:00,14:00,18:30,21:00,Yes,Veg-only,No,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R21,Demo Children's Home 21,Children's Home,Dadar East,19.02489,72.84903,90,12:00,14:00,18:30,21:00,Yes,Any,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R22,Demo Community Kitchen 22,Community Kitchen,Dadar East,19.0223,72.84898,300,12:00,15:00,19:00,22:00,Yes,Any,Yes,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R23,Demo Night Shelter 23,Night Shelter,Dadar West,19.01917,72.84044,70,19:30,23:54,,,Yes,Any,Yes,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R24,Demo Old-Age Home 24,Old-Age Home,Dadar West,19.01623,72.8404,50,11:30,13:30,18:00,20:30,Yes,Veg-only,No,Declared Registered,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA
+R25,Demo Children's Home 25,Children's Home,Shivaji Park,19.026,72.83667,40,12:00,14:00,18:30,21:00,Yes,Veg-only,No,Not Declared,SYNTHETIC - not a real organisation,SYNTHETIC DEMO DATA

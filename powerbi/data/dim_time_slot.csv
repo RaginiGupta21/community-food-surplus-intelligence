@@ -1,0 +1,5 @@
+time_slot,sort_order,hour_from,hour_to,data_label
+Afternoon (12-17),2,12,17,SYNTHETIC DEMO DATA
+Evening (17-21),3,17,21,SYNTHETIC DEMO DATA
+Late Night (21-24),4,21,24,SYNTHETIC DEMO DATA
+Morning (06-12),1,6,12,SYNTHETIC DEMO DATA

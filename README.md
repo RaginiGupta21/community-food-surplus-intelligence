@@ -18,16 +18,30 @@ Every parameter is listed with source and status (*Sourced / Adapted / Assumptio
 
 ## Folder structure
 ```
-README.md  requirements.txt  run_all.sh
-data/raw/            7 relational CSVs (SYNTHETIC DEMO DATA, light formatting noise)   data/data_dictionary.csv
-data/clean/          cleaned tables + master_surplus / master_distribution
-data/templates/      blank FIELD DATA templates + allowed_values_lookup.csv    data/calibration_sources.csv
-scripts/             00..08 tested scripts (percent-format cells), common.py, schema.py, build_notebooks.py
-notebooks/           executed notebooks generated from the scripts (02, 03, 04, 05)
-outputs/figures/     15 analysis charts (PNG)      outputs/tables/   all statistical results (CSV)
-powerbi/data/        star schema for Power BI      powerbi/measures.dax, theme json
-docs/                01 area selection, 02 methodology, 03 FSSAI+ethics, 04 findings+limitations, 05 recommendations+pilot, 06 Power BI guide, 07 realism+calibration
-surveys/             consent note, donor / recipient / volunteer questionnaires, field checklist
+food_surplus_project/
+|-- README.md  LICENSE  requirements.txt  run_all.sh  .gitignore  .gitattributes
+|-- data/
+|   |-- raw/                7 relational CSVs (SYNTHETIC DEMO DATA, light formatting noise)
+|   |-- clean/              cleaned tables + master_surplus / master_distribution
+|   |-- templates/          blank FIELD DATA templates + allowed_values_lookup.csv
+|   |-- data_dictionary.csv
+|   `-- calibration_sources.csv   sources and confidence label for every calibrated parameter
+|-- scripts/                00..08 tested scripts, common.py, schema.py, build_notebooks.py
+|-- notebooks/              executed notebooks generated from the scripts (02, 03, 04, 05)
+|-- outputs/
+|   |-- figures/            15 analysis charts (PNG)
+|   `-- tables/             all statistical results (CSV)
+|-- powerbi/
+|   |-- data/               star schema CSVs for Power BI
+|   |-- Food_Surplus_Dashboard.pbix
+|   |-- measures.dax  measures_dax_query_view.dax
+|   `-- theme_soft_food_surplus.json  theme_soft_earth.json
+|-- docs/
+|   |-- 01_area_selection_and_scope.md   02_methodology.md   03_fssai_safety_and_ethics.md
+|   |-- 04_findings_and_limitations.md   05_recommendations_and_pilot.md
+|   |-- 06_powerbi_dashboard_guide.md    07_realism_and_calibration.md
+|   `-- images/             dashboard screenshots used in this README
+`-- surveys/                consent note, donor / recipient / volunteer questionnaires, field checklist
 ```
 
 ## Setup

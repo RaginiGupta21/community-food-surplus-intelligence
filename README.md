@@ -78,7 +78,7 @@ All figures below are SYNTHETIC DEMO DATA. The Power BI file is powerbi/Food_Sur
 ![Overview](docs/images/collection_distribution.png)
 
 ## Geography & Graphs
-![Overview](docs/images/geography_graphs.png)
+![Overview](docs/images/geography_gaps.png)
 
 ## Power BI
 Open `docs/06_powerbi_dashboard_guide.md`: load `powerbi/data/*.csv`, apply the theme, paste `measures.dax`, build the 7 pages. (A `.pbix` needs Power BI Desktop and is not included.)

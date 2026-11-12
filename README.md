@@ -33,9 +33,7 @@ food_surplus_project/
 |   `-- tables/             all statistical results (CSV)
 |-- powerbi/
 |   |-- data/               star schema CSVs for Power BI
-|   |-- Food_Surplus_Dashboard.pbix
-|   |-- measures.dax  measures_dax_query_view.dax
-|   `-- theme_soft_food_surplus.json  theme_soft_earth.json
+|   `-- Food_Surplus_Dashboard.pbix
 |-- docs/
 |   |-- 01_area_selection_and_scope.md   02_methodology.md   03_fssai_safety_and_ethics.md
 |   |-- 04_findings_and_limitations.md   05_recommendations_and_pilot.md

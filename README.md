@@ -33,11 +33,11 @@ food_surplus_project/
 |   `-- tables/             all statistical results (CSV)
 |-- powerbi/
 |   |-- data/               star schema CSVs for Power BI
-|   `-- Food_Surplus_Dashboard.pbix      Power BI Dashboard
+|   `-- Food_Surplus_Dashboard.pbix   Power BI dashboard (synthetic demo data)
 |-- docs/
 |   |-- 01_area_selection_and_scope.md   02_methodology.md   03_fssai_safety_and_ethics.md
 |   |-- 04_findings_and_limitations.md   05_recommendations_and_pilot.md
-|   |-- 06_powerbi_dashboard_guide.md    07_realism_and_calibration.md
+|   |-- 07_realism_and_calibration.md
 |   `-- images/             dashboard screenshots used in this README
 `-- surveys/                consent note, donor / recipient / volunteer questionnaires, field checklist
 ```
@@ -49,10 +49,10 @@ pip install -r requirements.txt
 bash run_all.sh               # everything, ~1-2 min  (add --notebooks to rebuild the executed notebooks)
 # or step by step:  python scripts/01_generate_data.py  ->  02  ->  03  ->  04  ->  05  ->  06_tests.py
 ```
-Tested with Python 3.12, pandas 3.0, NumPy 2.5, scikit-learn 1.9, statsmodels 0.15. Seeded (2026): regenerating gives byte-identical CSVs.
+Tested with Python 3.10 (pandas 2.3) and Python 3.12 (pandas 3.0). Seeded (2026): regenerating gives byte-identical CSVs.
 
-## Datasets (7 tables, 10,302 surplus reports, 12 months)
-`donors` (128) - `recipients` (25) - `volunteers` (36) - `daily_context` (365) - `surplus_records` (10,302) - `collections` (10,302, one per report) - `distributions` (9,100).
+## Datasets (7 tables, 10,374 surplus reports, 12 months)
+`donors` (128) - `recipients` (25) - `volunteers` (36) - `daily_context` (365) - `surplus_records` (10,374) - `collections` (10,374, one per report) - `distributions` (8,962).
 See `data/data_dictionary.csv` (89 documented columns). 73 validation checks pass; `06_tests.py` proves the validator rejects corrupted data.
 
 ## Analyses
@@ -61,89 +61,86 @@ hypothesis tests with effect sizes - logistic model - redistribution-gap decompo
 back-tested forecasting (must beat naive baselines) - grid hotspot analysis with Moran's I - indicative impact scenarios.
 
 ## Dashboard preview
-All figures below are SYNTHETIC DEMO DATA. The Power BI file is powerbi/Food_Surplus_Dashboard.pbix (open in Power BI Desktop).
+All figures below are **SYNTHETIC DEMO DATA**. The Power BI file is `powerbi/Food_Surplus_Dashboard.pbix` (open in Power BI Desktop).
 
-## Overview
-![Overview](docs/images/overview.png)
+| Overview | Food categories and reasons |
+|---|---|
+| ![Overview](docs/images/overview.png) | ![Food and reasons](docs/images/food_reasons.png) |
 
-## Food & Reasons
-![Overview](docs/images/food_reasons.png)
+| Time trends and forecast | Collection and distribution |
+|---|---|
+| ![Time and forecast](docs/images/time_forecast.png) | ![Collection and distribution](docs/images/collection_distribution.png) |
 
-## Time & Forecast
-![Overview](docs/images/time_forecast.png)
-
-## Collection & Distribution
-![Overview](docs/images/collection_distribution.png)
-
-## Geography & Graphs
-![Overview](docs/images/geography_gaps.png)
+| Geography and redistribution gaps |
+|---|
+| ![Geography and gaps](docs/images/geography_gaps.png) |
 
 ## Glossary
-Data and project terms
+**Data and project terms**
+| Term | Meaning in this project |
+|---|---|
+| Surplus | Edible food that a donor reports as left over and not needed |
+| Donor | A food business or household society that reports surplus (restaurant, bakery, caterer, residential society, sweet shop, canteen/mess, banquet/event hall) |
+| Recipient organisation | A shelter, community kitchen, children's home, old-age home or community group that receives food |
+| Volunteer | A person who collects food from a donor and delivers it to a recipient |
+| Surplus report | One record of surplus reported by a donor at a specific time |
+| Consignment | The food actually collected for one surplus report |
+| Hand-over | Delivery of a consignment to a recipient organisation |
+| Declared safe window | Hours after preparation within which the donor says the food is meant to be consumed. It is an **advisory input only**; trained people decide safety |
+| Perishability class | High / Medium / Low grouping of food categories for planning. It is **not** a food-safety decision |
+| Recipient acceptance window | Times of day when a recipient can receive food |
+| Time slots | Afternoon (12:00-17:00), Evening (17:00-21:00), Late night (21:00-24:00) |
+| Study zones | Dadar West, Dadar East, Shivaji Park, Matunga, Mahim, Dharavi Fringe |
+| Grid cell | A map square of about 300 m used for hotspot analysis |
+| Synthetic data | Records produced by a simulator, not collected from real people or businesses |
+| Calibration | Setting simulator parameters from published sources; each is labelled Sourced, Adapted or Assumption |
+| FSSAI | Food Safety and Standards Authority of India |
+| FoSTaC | FSSAI's Food Safety Supervisor Training and Certification programme |
+| Human go / no-go | A trained person's decision to accept or refuse food at pickup and hand-over; never automated |
 
-Term	Meaning in this project
-Surplus	Edible food that a donor reports as left over and not needed
-Donor	A food business or household society that reports surplus (restaurant, bakery, caterer, residential society, sweet shop, canteen/mess, banquet/event hall)
-Recipient organisation	A shelter, community kitchen, children's home, old-age home or community group that receives food
-Volunteer	A person who collects food from a donor and delivers it to a recipient
-Surplus report	One record of surplus reported by a donor at a specific time
-Consignment	The food actually collected for one surplus report
-Hand-over	Delivery of a consignment to a recipient organisation
-Declared safe window	Hours after preparation within which the donor says the food is meant to be consumed. It is an advisory input only; trained people decide safety
-Perishability class	High / Medium / Low grouping of food categories for planning. It is not a food-safety decision
-Recipient acceptance window	Times of day when a recipient can receive food
-Time slots	Afternoon (12:00-17:00), Evening (17:00-21:00), Late night (21:00-24:00)
-Study zones	Dadar West, Dadar East, Shivaji Park, Matunga, Mahim, Dharavi Fringe
-Grid cell	A map square of about 300 m used for hotspot analysis
-Synthetic data	Records produced by a simulator, not collected from real people or businesses
-Calibration	Setting simulator parameters from published sources; each is labelled Sourced, Adapted or Assumption
-FSSAI	Food Safety and Standards Authority of India
-FoSTaC	FSSAI's Food Safety Supervisor Training and Certification programme
-Human go / no-go	A trained person's decision to accept or refuse food at pickup and hand-over; never automated
+**KPIs (all in kg unless stated)**
+| KPI | Definition |
+|---|---|
+| Reported surplus | Total kg reported by donors |
+| Collected | Kg actually picked up by volunteers |
+| Delivered | Kg handed over to recipients |
+| Wasted after collection | Collected kg that was not delivered (no recipient open in time, capacity full, or quality loss at hand-over) |
+| Never collected | Reported kg that was not picked up (no volunteer, arrived late, cancelled, rejected, or left behind in a partial pickup) |
+| Collection rate | Collected kg / reported kg |
+| Redistribution yield | Delivered kg / reported kg (end-to-end success) |
+| Delivery efficiency | Delivered kg / collected kg |
+| Gap | Reported kg - delivered kg |
+| Portions served | Delivered kg / planning portion size of the food (cooked meals 0.35 kg, snacks 0.15, bread and cakes 0.10, fruit 0.15, packaged 0.08, sweets 0.06) |
+| Response time | Minutes from report to pickup, for collected reports (median and 90th percentile) |
+| Pickups within 60 min | Share of collected reports picked up within an hour |
+| Hand-over record completeness | Share of deliveries with a complete record (donor, recipient, date, item, quantity) |
+| Active donors | Donors with at least one report in the selected period |
+| kg per active donor | Reported kg / active donors, so growth from onboarding is not mistaken for higher surplus |
+| Recipient utilisation | Average daily portions delivered / recipient's daily capacity |
 
-KPIs (all in kg unless stated)
-
-KPI	Definition
-Reported surplus	Total kg reported by donors
-Collected	Kg actually picked up by volunteers
-Delivered	Kg handed over to recipients
-Wasted after collection	Collected kg that was not delivered (no recipient open in time, capacity full, or quality loss at hand-over)
-Never collected	Reported kg that was not picked up (no volunteer, arrived late, cancelled, rejected, or left behind in a partial pickup)
-Collection rate	Collected kg / reported kg
-Redistribution yield	Delivered kg / reported kg (end-to-end success)
-Delivery efficiency	Delivered kg / collected kg
-Gap	Reported kg - delivered kg
-Portions served	Delivered kg / planning portion size of the food (cooked meals 0.35 kg, snacks 0.15, bread and cakes 0.10, fruit 0.15, packaged 0.08, sweets 0.06)
-Response time	Minutes from report to pickup, for collected reports (median and 90th percentile)
-Pickups within 60 min	Share of collected reports picked up within an hour
-Hand-over record completeness	Share of deliveries with a complete record (donor, recipient, date, item, quantity)
-Active donors	Donors with at least one report in the selected period
-kg per active donor	Reported kg / active donors, so growth from onboarding is not mistaken for higher surplus
-Recipient utilisation	Average daily portions delivered / recipient's daily capacity
-
-Statistics and modelling terms
-
-Term	Plain-language meaning
-Effect size	How big a difference is, separate from whether it is "significant". With about 10,000 records, even tiny differences have small p-values
-Kruskal-Wallis, Mann-Whitney	Tests that compare groups without assuming a normal distribution
-Chi-square, Cramer's V	Test and strength (0 to 1) of a link between two categories
-Spearman rho	Strength of a rank-based relationship between two numbers (-1 to 1)
-Logistic regression, odds ratio	Model of a yes/no outcome. An odds ratio below 1 lowers the odds of the outcome, above 1 raises them
-McFadden R-squared	How much of the outcome the logistic model explains
-Gini coefficient, Pareto	Measures of how concentrated surplus is among a few donors
-K-Means	Method that groups donors with similar behaviour into segments
-Silhouette score	How clearly the segments separate (0.25 or more is treated as meaningful here)
-Adjusted Rand Index (ARI)	Agreement between two groupings (1 = identical). Used to test segment stability and to compare segments with donor category
-Seasonal naive	Baseline forecast that repeats the same weekday of last week
-Holt-Winters	Forecast method using level, trend and weekly pattern
-Rolling-origin back-test	Repeatedly forecasting a week ahead from earlier dates and checking against what happened
-MAE, WAPE	Average forecast error in kg, and total error as a percentage of total actual kg
-Moran's I	Test of whether high or low values cluster on the map (about 0 = no clustering)
-Hotspot	A grid cell in the top quarter for unserved kg
+**Statistics and modelling terms**
+| Term | Plain-language meaning |
+|---|---|
+| Effect size | How big a difference is, separate from whether it is "significant". With about 10,000 records, even tiny differences have small p-values |
+| Kruskal-Wallis, Mann-Whitney | Tests that compare groups without assuming a normal distribution |
+| Chi-square, Cramer's V | Test and strength (0 to 1) of a link between two categories |
+| Spearman rho | Strength of a rank-based relationship between two numbers (-1 to 1) |
+| Logistic regression, odds ratio | Model of a yes/no outcome. An odds ratio below 1 lowers the odds of the outcome, above 1 raises them |
+| McFadden R-squared | How much of the outcome the logistic model explains |
+| Gini coefficient, Pareto | Measures of how concentrated surplus is among a few donors |
+| K-Means | Method that groups donors with similar behaviour into segments |
+| Silhouette score | How clearly the segments separate (0.25 or more is treated as meaningful here) |
+| Adjusted Rand Index (ARI) | Agreement between two groupings (1 = identical). Used to test segment stability and to compare segments with donor category |
+| Seasonal naive | Baseline forecast that repeats the same weekday of last week |
+| Holt-Winters | Forecast method using level, trend and weekly pattern |
+| Rolling-origin back-test | Repeatedly forecasting a week ahead from earlier dates and checking against what happened |
+| MAE, WAPE | Average forecast error in kg, and total error as a percentage of total actual kg |
+| Moran's I | Test of whether high or low values cluster on the map (about 0 = no clustering) |
+| Hotspot | A grid cell in the top quarter for unserved kg |
 
 ## Using real data
 Fill the templates in `data/templates/` (after consent and ethics approval), put them in a new `data/field/` folder, and point the scripts at it; keep SYNTHETIC and FIELD data in separate tables.
 Proposed supervised pilot with an **authorised, verified** NGO partner: `docs/05_recommendations_and_pilot.md`.
 
 ## Limitations (short)
-Synthetic data encode the assumptions of their generator; one annual cycle only; approximate coordinates and festival dates; donor-reported quantities; simplified logistics. Full list: `docs/04_findings_and_limitations.md`.
+Synthetic data encode the assumptions of their generator; one annual cycle only; approximate coordinates; simulated day-level rain; donor-reported quantities; simplified logistics. Full list: `docs/04_findings_and_limitations.md`.

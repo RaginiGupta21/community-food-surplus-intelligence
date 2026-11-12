@@ -63,7 +63,10 @@ hypothesis tests with effect sizes - logistic model - redistribution-gap decompo
 back-tested forecasting (must beat naive baselines) - grid hotspot analysis with Moran's I - indicative impact scenarios.
 
 ## Dashboard preview
-![Overview](docs/images/01_overview.png)
+All figures below are SYNTHETIC DEMO DATA. The Power BI file is powerbi/Food_Surplus_Dashboard.pbix (open in Power BI Desktop).
+
+## Overview
+![Overview](docs/images/overview.png)
 ![Time and forecast](docs/images/04_time_forecast.png)
 ![Geography and gaps](docs/images/06_geography_gaps.png)
 

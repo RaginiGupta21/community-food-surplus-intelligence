@@ -67,10 +67,18 @@ All figures below are SYNTHETIC DEMO DATA. The Power BI file is powerbi/Food_Sur
 
 ## Overview
 ![Overview](docs/images/overview.png)
-![Time and forecast](docs/images/04_time_forecast.png)
-![Geography and gaps](docs/images/06_geography_gaps.png)
 
-The dashboard file is `powerbi/Food_Surplus_Dashboard.pbix` (open in Power BI Desktop; all data are SYNTHETIC DEMO DATA).
+## Food & Reasons
+![Overview](docs/images/food_reasons.png)
+
+## Time & Forecast
+![Overview](docs/images/time_forecast.png)
+
+## Collection & Distribution
+![Overview](docs/images/collection_distribution.png)
+
+## Geography & Graphs
+![Overview](docs/images/geography_graphs.png)
 
 ## Power BI
 Open `docs/06_powerbi_dashboard_guide.md`: load `powerbi/data/*.csv`, apply the theme, paste `measures.dax`, build the 7 pages. (A `.pbix` needs Power BI Desktop and is not included.)
